@@ -1,0 +1,68 @@
+#dbDemo-main-menu{
+	float:left;
+	width:250px;
+	padding:10px;
+	border-right:1px dotted black;
+}
+#dbDemo-main{
+	margin-left:280px;
+}
+#dbDemo-main-menu a.link{
+	display:block;
+	border-bottom:1px dotted #AAAAAA;
+	min-height:40px;
+}
+#dbDemo-main-menu a.link:hover{
+	background:#6de2ff;
+}
+.dbDemo-table{
+	border-collapse:collapse;
+	width:80%;
+}
+.dbDemo-table tr{
+	border-bottom:1px dotted #AAAAAA;	
+}
+.dbDemo-table th{
+	border-bottom:2px solid black;
+}
+.dbDemo-table tr:nth-child(2n){
+	border-bottom:1px dotted #AAAAAA;
+	background: #DDDDDD;
+}
+.dbDemo-table tr:nth-child(2n+1){
+	border-bottom:1px dotted #AAAAAA;
+	background: #EEEEEE;
+}
+form.dbDemo-student-form .dbDemo-label{
+	display:inline-block;
+	width:200px;
+	margin-right:5px;
+}
+form.dbDemo-student-form .dbDemo-form-element:nth-child(2n){
+	background: #DDDDDD;
+}
+form.dbDemo-student-form .dbDemo-form-element:nth-child(2n+1){
+	background: #EEEEEE;
+}
+#dbDemo-message{
+	padding:5px;
+	background:#DDDDDD;
+	color:black;
+	border:1px solid black;
+}
+#dbDemo-message li.normal{
+	color:#3a8917;
+}
+#dbDemo-message li.error{
+	color:#AA0000;
+}
+.dbDemo-submit-button{
+	display:inline-block;
+	padding:5px;
+	background:white;
+	border:1px solid black;
+	cursor:pointer;
+}
+.dbDemo-submit-button:hover{
+	background:#2dabdd;
+}
