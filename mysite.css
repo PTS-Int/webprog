@@ -1,0 +1,235 @@
+body {
+	margin: 0px;
+}
+
+#top {
+	height: 15vh;
+	background-color: #08007a;
+	padding-right: 0.5em;
+	font-size: 48px;
+	line-height: 15vh;
+	text-align: right;
+	color: white;
+}
+
+#mid {
+	height: 75vh;
+	background-color: #ff881a; 
+	align: right;
+}
+
+#bot {
+	height: 10vh;
+	background-color: black;
+	padding-right: 2em;
+	font-size: 20px;
+	line-height: 10vh;
+	text-align: right;
+	color: white;
+}
+
+#table1 {
+	float: right;
+	position: fixed;
+	top: 12vh;
+	left: 40%;
+	width: 60%;
+	height: 17vh;
+	font-size: 24px;
+}
+
+#table2 {
+	position: absolute;
+	float: left;
+	width: 60%;
+	height: 50vh;
+	top: 38vh;
+	left: 39%;
+	font-size: 24px;
+}
+
+#pete {
+	position: fixed;
+	height: 92vh;
+	bottom: 0px;
+	left: 0px;
+}
+
+#interview {
+	position: fixed;
+	height: 18vh;
+	top: 200px;
+	left: 260px;
+	transform: rotate(-7deg);
+}
+
+#mail {
+	height: 3vh;
+}
+
+#phone {
+	height: 3vh;
+}
+
+.table1 {
+	width: 25%;
+	text-align: center;
+	padding-top: 5vh;
+	background: url("wood.png");
+	background-size: cover;
+	background-position: 0% 72%;
+	color: yellow;
+	font-weight: bold;
+}
+
+.table21 {
+	width: 49%;
+	padding-left: 21%;
+	background: url("trainred.png");
+	background-size: cover;
+	background-position: 0% 60%;
+}
+
+.table22 {
+	width: 49%;
+	padding-left: 21%;
+	background: url("trainyellow.png");
+	background-size: cover;
+	background-position: 0% 60%;
+}
+
+.table23 {
+	width: 49%;
+	padding-left: 21%;
+	background: url("trainblue.png");
+	background-size: cover;
+	background-position: 0% 60%;
+}
+
+.table24 {
+	width: 49%;
+	padding-left: 21%;
+	background: url("traingreen.png");
+	background-size: cover;
+	background-position: 0% 60%;
+}
+
+.tablespare {
+	width: 2%;
+}
+
+.div90 {
+	float: right;
+	position: relative;
+	bottom: 0.9vh;
+	padding: 2px;
+	font-style: italic;
+	font-size: 18px;
+	color: white;
+	background-color: red;
+}
+
+.div80 {
+	float: right;
+	position: relative;
+	bottom: 0.9vh;
+	padding: 2px;
+	font-style: italic;
+	font-size: 18px;
+	color: white;
+	background-color: yellow;
+}
+
+.div70 {
+	float: right;
+	position: relative;
+	bottom: 0.9vh;
+	padding: 2px;
+	font-style: italic;
+	font-size: 18px;
+	color: white;
+	background-color: blue;
+}
+
+.div60 {
+	float: right;
+	position: relative;
+	bottom: 0.9vh;
+	padding: 2px;
+	font-style: italic;
+	font-size: 18px;
+	color: white;
+	background-color: green;
+}
+
+.word211 {
+	position: absolute;
+	top: 3.1vh;
+	left: 23.4%;
+	background-color: black;
+	color: red;
+	padding: 2px;
+}
+
+.word212 {
+	position: absolute;
+	top: 3.1vh;
+	left: 74.3%;
+	background-color: black;
+	color: red;
+	padding: 2px;
+}
+
+.word221 {
+	position: absolute;
+	top: 15.5vh;
+	left: 23.4%;
+	background-color: black;
+	color: yellow;
+	padding: 2px;
+}
+
+.word222 {
+	position: absolute;
+	top: 15.5vh;
+	left: 74.3%;
+	background-color: black;
+	color: yellow;
+	padding: 2px;
+}
+
+.word231 {
+	position: absolute;
+	top: 27.9vh;
+	left: 23.4%;
+	background-color: black;
+	color: blue;
+	padding: 2px;
+}
+
+.word232 {
+	position: absolute;
+	top: 27.9vh;
+	left: 74.3%;
+	background-color: black;
+	color: blue;
+	padding: 2px;
+}
+
+.word241 {
+	position: absolute;
+	top: 40.3vh;
+	left: 23.4%;
+	background-color: black;
+	color: green;
+	padding: 2px;
+}
+
+.word242 {
+	position: absolute;
+	top: 40.3vh;
+	left: 74.3%;
+	background-color: black;
+	color: green;
+	padding: 2px;
+}
