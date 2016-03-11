@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+}
+
+#table {
+	width: 95%;
+	margin: 0px auto;
+}
+
+td {
+	width: 25%;
+	vertical-align: bottom;
+	padding: 20px;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.link {
+	cursor: pointer;
+}

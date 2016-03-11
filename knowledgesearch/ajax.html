@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Programming</title>
+	<link rel="stylesheet" type="text/css" href="ajax.css">
+</head>
+<body>
+	<div>Input keyword</div><br>
+	<div><input id="keyWord" type="text"></input></div><br>
+	<div><input type="button" onclick="search()" value="Search"></input></div><br>
+	<div id="output"></div>
+	<script type="text/javascript">
+		var APIKey = "AIzaSyAlpgYFZIZyR7UY9GWdlC9D8hdcWkEReKA";
+
+		function search() {
+		  var xhttp = new XMLHttpRequest();
+		  xhttp.onreadystatechange = function() {
+		    if (xhttp.readyState == 4 && xhttp.status == 200) {
+		    	var json = xhttp.responseText;
+		    	var obj = JSON.parse(json);
+		    	var itemListElement = obj.itemListElement;
+		    	var table = document.createElement("table");
+		    	table.id = "table";
+		    	// table.border = "1";
+		    	var tr = [];
+		    	var counter = -1;
+		    	for (var i = 0; i < itemListElement.length; i++) {
+		    		result = itemListElement[i].result;
+		    		if(result.image!==undefined) {
+		    			counter++;
+		    			if(counter%4==0) {
+		    				tr[counter/4] = document.createElement("tr");
+		    			}
+		    			var td = document.createElement("td");
+		    			var img = document.createElement("img");
+		    			img.src = result.image.contentUrl;
+		    			td.appendChild(img);
+		    			var div1 = document.createElement("div");
+		    			div1.innerHTML = result.name
+		    			var div2 = document.createElement("div");
+		    			if(result.description!==undefined) div2.innerHTML = result.description;
+		    			else div2.innerHTML = "&nbsp;";
+		    			td.appendChild(div1);
+		    			td.appendChild(div2);
+		    			var URL = result.url;
+		    			if(result.url!==undefined) {
+		    				td.setAttribute("onclick", "location.href='"+URL+"'"); 
+		    				td.className = "link";
+		    			}
+		    																
+		    			// console.log(result);
+		    			tr[Math.floor(counter/4)].appendChild(td);		    			
+		    		}
+		    		// console.log(div);
+		    		// document.getElementById("searchResult").appendChild(div);
+		    	}
+		    	for (var i = 0; i < tr.length; i++) {
+		    		table.appendChild(tr[i]);
+		    	}
+		    	// table.appendChild(td);
+		    	document.getElementById("output").innerHTML = "";
+		    	document.getElementById("output").appendChild(table);
+		     // document.getElementById("output").innerHTML = table;
+		     // console.log(result);
+		     // console.log(obj.itemListElement);
+		     //do stuff here
+		    }
+		  };
+		  var link = "https://kgsearch.googleapis.com/v1/entities:search?query="+document.getElementById("keyWord").value+"&key="+APIKey;
+		  xhttp.open("GET", link, true);
+		  xhttp.send();
+		}
+	</script>
+</body>
+</html>
