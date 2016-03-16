@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Loading Bar</title>
+<link rel="stylesheet" type="text/css" href="webprog_css.css">
+</head>
+<body>
+<div class="header">How to create loading Bar</div>
+<ol class="list">
+  <li>First, create some input type radio to be chosen by using html.</li>
+  <div class="containerExample">
+  	<form>
+      <input type="radio" name="progress">5%
+      <input type="radio" name="progress">25%
+      <input type="radio" name="progress">50%
+      <input type="radio" name="progress">75%
+      <input type="radio" name="progress">100%
+    </form>
+  </div>
+  <li>Next, create a progress bar. This bar will be used to show percentage & color.</li>
+  <div class="containerExample">
+    <form>
+      <input type="radio" name="progress">5%
+      <input type="radio" name="progress">25%
+      <input type="radio" name="progress">50%
+      <input type="radio" name="progress">75%
+      <input type="radio" name="progress">100%
+    </form>
+    <div class="progressBarExample"></div>
+  </div>
+  <li>Then, we draw a rectangle inside the process bar. This rectangle's size will depend on percentage.</li>
+  <div class="containerExample">
+    <form>
+      <input type="radio" name="progress" id="fiveExample">5%
+      <input type="radio" name="progress" id="twentyfiveExample" checked>25%
+      <input type="radio" name="progress" id="fiftyExample">50%
+      <input type="radio" name="progress" id="seventyfiveExample">75%
+      <input type="radio" name="progress" id="onehundredExample">100%
+    </form>
+    <div class="progressBarExample">
+      <div class="progressExample"></div>
+    </div>
+  </div>
+  <li>After that, here's the key. We give the animation to the bar. Whenever any radio button is checked, the width will change with some animation.</li>
+  <div class="containerExample">
+    <form>
+      <input type="radio" name="progress" id="fiveExample2">5%
+      <input type="radio" name="progress" id="twentyfiveExample2" checked>25%
+      <input type="radio" name="progress" id="fiftyExample2">50%
+      <input type="radio" name="progress" id="seventyfiveExample2">75%
+      <input type="radio" name="progress" id="onehundredExample2">100%
+    </form>
+    <div class="progressBarExample">
+      <div class="progressExample2"></div>
+    </div>
+  </div>
+  <li>Finally, the bar is ready to use. You can use other css to edit other attribute to your style!</li>
+  <div class="container">
+    <input type="radio" class="radio" name="progress" id="five">
+      <label for="five" class="label">5%</label>
+    <input type="radio" class="radio" name="progress" id="twentyfive" checked>
+      <label for="twentyfive" class="label">25%</label>
+    <input type="radio" class="radio" name="progress" id="fifty">
+      <label for="fifty" class="label">50%</label>
+    <input type="radio" class="radio" name="progress" id="seventyfive">
+      <label for="seventyfive" class="label">75%</label>
+    <input type="radio" class="radio" name="progress" id="onehundred">
+      <label for="onehundred" class="label">100%</label>
+    <div class="progressBar">
+      <div class="progress"></div>
+    </div>
+  </div>
+</ol>
+</body>
+</html>

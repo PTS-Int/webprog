@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stickerbooth.css"/>
+    <script src="jquery-1.12.0.min.js"></script>
+    <script src="camera.js"></script>
+    <title>Sticker Booth</title>
+</head>
+<body>
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            CameraTool.initCameraOn("camera");
+        });
+    </script>
+<div id="wrapper">
+    <div id="framing">
+        <canvas id="photo" width="800" height="600"></canvas>
+        <div id="camera"></div>
+        <div id="countdown"></div>
+        <div id="overlay" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            var nodeCopy = document.getElementById(data).cloneNode(true);
+            $("#"+data).attr("id",data.substring(0,9)+(parseInt(data.substring(9))+1));
+            nodeCopy.style.position = "absolute";
+            nodeCopy.style.width = "20%";
+            console.log(ev.clientX);
+            console.log(ev.clientY);
+            // console.log(50%);
+            // console.log(50%-404);
+            nodeCopy.style.left = ev.clientX-$("#overlay").offset().left/*-(window.innerWidth/2 - 404)-4*/+"px";
+            nodeCopy.style.top = ev.clientY-$("#overlay").offset().top/*-(window.innerHeight/2)-4*/+"px";
+            // nodeCopy.style.transform = "rotate(0)deg";
+            nodeCopy.setAttribute("draggable", false);
+            nodeCopy.setAttribute("onclick", "selectItem(this)");
+            nodeCopy.className = "sticker";
+            $("#overlay").append(nodeCopy);
+        }
+
+        function selectItem(sticker) {
+            // $("#overlay").on("click", function (e) {
+            //     if (e.target == this) return;
+            // });
+            $(".sticker").removeClass("selected");
+            $("#"+sticker.id).addClass("selected");
+        }
+
+        function getRotationDegrees(obj) {
+            console.log(obj);
+            var matrix = obj.css("transform");
+            if(matrix !== 'none') {
+                var values = matrix.split('(')[1].split(')')[0].split(',');
+                var a = values[0];
+                var b = values[1];
+                var angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
+            } else { var angle = 0; }
+            return (angle < 0) ? angle + 360 : angle;
+        }
+
+        $(document).keydown(function (e) {
+            // if(e.which==37 && e.ctrlKey) $(".selected").css({transform: "rotate("+(getRotationDegrees($(".selected").id)+5)+")deg"})
+            // else if(e.which==39 && e.ctrlKey) $(".selected").css({transform: "rotate("+(getRotationDegrees($(".selected").id)-5)+")deg"})
+            if(e.which==37) $(".selected").css({left: $(".selected").position().left-5});
+            else if(e.which==38) $(".selected").css({top: $(".selected").position().top-5});
+            else if(e.which==39) $(".selected").css({left: $(".selected").position().left+5});
+            else if(e.which==40) $(".selected").css({top: $(".selected").position().top+5});
+            else if(e.which==187) $(".selected").width($(".selected").width()+($(".selected").width())/100);
+            else if(e.which==189) $(".selected").width($(".selected").width()-($(".selected").width())/100);
+        });
+    </script>
+    <div id="camera-control">
+        <button onclick="capture()">Shoot</button>
+        <script type="text/javascript">
+            function capture() {
+                $("#countdown").html("3");
+                setTimeout( function(){
+                    $("#countdown").html("2");
+                },1000);
+                setTimeout( function(){
+                    $("#countdown").html("1");
+                },2000);
+                setTimeout( function(){
+                    $("#countdown").html("");
+                    CameraTool.captureTo("photo");
+                    CameraTool.hideCamera();
+                    $("#camera-control").hide();
+                },3000);
+            }
+        </script>
+    </div>
+    <div id="toolbar">
+        <ul id="sticker-list">
+            <li><img id="sticker1_0" src="sticker/glasses_01.png" draggable="true" ondragstart="drag(event)"/></li>
+            <li><img id="sticker2_0" src="sticker/dognose.png" draggable="true" ondragstart="drag(event)"/></li>
+            <li><img id="sticker3_0" src="sticker/tongue.png" draggable="true" ondragstart="drag(event)"/></li>
+            <li><img id="sticker4_0" src="sticker/eye_01.png" draggable="true" ondragstart="drag(event)"/></li>
+            <li><img id="sticker5_0" src="sticker/glasses_02.png" draggable="true" ondragstart="drag(event)"/></li>
+            <li><img id="sticker6_0" src="sticker/rednose.png" draggable="true" ondragstart="drag(event)"/></li>
+            <li><img id="sticker7_0" src="sticker/blush_01.png" draggable="true" ondragstart="drag(event)"/></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

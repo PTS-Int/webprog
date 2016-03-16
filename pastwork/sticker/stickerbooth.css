@@ -1,0 +1,104 @@
+#wrapper, #framing{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+#framing{
+    background-color: #87CEEE;
+}
+#photo, #overlay, #camera{
+    position: absolute;
+    top:50%;
+    transform: translate(0,-50%);
+    width: 800px;
+    height: 600px;
+    margin-left:calc(50% - 404px);
+    overflow: hidden;
+    box-sizing: content-box;
+    text-align: center;
+    border:4px solid transparent;
+}
+#overlay > .sticker{
+    position: absolute;
+    height:auto;
+    box-sizing: content-box;
+    border:1px solid transparent;
+    cursor:pointer;
+}
+#overlay > .sticker.selected{
+    border-color:white;
+    box-shadow: 1px 1px 1px 1px black;
+    /*transform-origin:0 0;*/
+}
+#photo{
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.2), 3px 5px 2px 0 rgba(0,0,0,0.2);
+    border-color: white;
+}
+#countdown{
+    position: absolute;
+    top:50%;
+    transform: translate(0,-50%);
+    width:100%;
+    color:white;
+    font-size: 160px;
+    color:white;
+    text-shadow: 2px 3px 5px 3px black;
+    text-align: center;
+}
+#toolbar{
+    position: absolute;
+    top:0;
+    bottom:0;
+    width:220px;
+    right:-150px;
+    background-color: rgba(0,0,0,0.2);
+    transition: right 0.5s;
+    overflow: hidden;
+}
+#toolbar:hover{
+    right:0px;
+}
+#sticker-list{
+    padding:10px;
+}
+#sticker-list li{
+    display: block;
+    margin:10px 0;
+}
+#sticker-list li > img{
+    width:150px;
+    height:auto;
+    cursor:pointer;
+}
+#camera-control{
+    position: absolute;
+    width:100%;
+    height:120px;
+    text-align: center;
+    bottom:0;
+}
+#camera-control > button {
+    color:white;
+    background-color: #018ADA;
+    font-size: 30px;
+    line-height: 80px;
+    border-radius: 50%;
+    border:3px solid white;
+    cursor:pointer;
+    width:80px;
+    height:80px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.2), 3px 5px 2px 0 rgba(0,0,0,0.5);
+}
+#camera-control > button:hover {
+    background-color: #00DDFF;
+}
+.inbox {
+    draggable: "false";
+}
+

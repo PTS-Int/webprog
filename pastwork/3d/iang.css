@@ -1,0 +1,205 @@
+body {
+	color: white;
+	background: gray;
+	margin: 0px;
+	transform-style: preserve 3d;
+}
+
+input {
+	border: none;
+	color: white;
+	background: transparent;
+	outline: none;
+	border: 0;
+	border-bottom: solid white 1px;
+}
+
+#globe {
+
+}
+
+#tab {
+	background: black;
+	width: 100%;
+	font-size: 36px;
+	padding: 30px;
+	position: fixed;
+	top: 30px;
+}
+
+#box1{
+	background: red;
+	top: 150px;
+}
+
+#box2{
+	background: purple;
+	top: 250px;
+}
+#box3{
+	background: yellow;
+	top: 350px;
+}
+#box4{
+	background: green;
+	top: 450px;
+}
+
+#outpie1 {
+	background: white;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: fixed;
+	top: 200px;
+	left: 370px;
+}
+
+#outpie2 {
+	background: white;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: fixed;
+	top: 200px;
+	left: 570px;
+}
+
+#inpie1 {
+	background: green;
+	width: 75px;
+	height: 150px;
+	border-radius: 0 75px 75px 0;
+	position: fixed;
+	top: 200px;
+	left: 445px;
+}
+
+#inpie2 {
+	background: green;
+	width: 75px;
+	height: 75px;
+	border-radius: 0 75px 0 0;
+	position: fixed;
+	top: 200px;
+	left: 645px;
+}
+
+#curvepie1 {
+	background: green;
+	width: 75px;
+	height: 150px;
+	border-radius: 0 75px 75px 0;
+	position: fixed;
+	top: 220px;
+	left: 440px;
+	transform: rotate(30deg);
+}
+
+#circle1 {
+	background: white;
+	position: fixed;
+	color: black;
+	font-size: 14px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	padding: 1px;
+	top: 259px;
+	left: 428px;
+	box-shadow: -1px 1px 1px black;
+}
+
+#circle2 {
+	background: white;
+	position: fixed;
+	color: black;
+	font-size: 14px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	padding: 1px;
+	top: 259px;
+	left: 628px;
+	box-shadow: -1px 1px 1px black;
+}
+
+#pie1 {
+	position: fixed;
+	font-size: 18px;
+	top: 370px;
+	left: 430px;
+}
+
+#pie2 {
+	position: fixed;
+	font-size: 18px;
+	top: 370px;
+	left: 630px;
+}
+
+#form {
+	position: fixed;
+	font-size: 18px;
+	top: 430px;
+	left: 400px; 
+}
+
+#name {
+	margin-left: 2em; 
+}
+
+#login {
+	position: fixed;
+	width: 240px;
+	height: 28px;
+	top: 430px;
+	left: 300px;
+	text-align: center;
+	line-height: 28px;
+	margin: 100px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 4px;
+}
+
+#login:hover > #water{
+	height: 28px;
+	margin-top: 0px;
+}
+
+#water {
+	position: fixed;
+	top: 531px;
+	left: 401px;
+	background: blue;
+	margin-top: 28px;
+	height: 0px;
+	width: 240px;
+	transition: all 0.5s linear;
+}
+
+.box {
+	position: fixed;
+	font-size: 20px;
+	width: 200px;
+	height: 60px;
+	margin: 50px;
+	padding: 10px;
+	box-shadow: -5px 5px 5px black;
+}
+
+.input {
+	padding-left: 5px;
+}
