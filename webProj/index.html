@@ -9,7 +9,7 @@
 <table class="table">
 	<caption class="caption">PTS-Int. ETA Calculator</caption>
 	<tr>
-		<th class="tablehead">Google Maps</th>
+		<th class="tablehead">Fastest Path</th>
 		<th rowspan="2"></th>
 		<th class="tablehead">Silom</th>
 	</tr>
@@ -148,51 +148,51 @@
 				        $("#BhumibholBridgeBox").html(result[88]+"<br>mins");
 
 				        if(result[86] == result[87] && result[87]==result[88]) {
+				        	displayRouteCharoenKrung(directionsService, directionsDisplay);
 				        	$("#SilomBox").css('background-color','green');
 				        	$("#CharoenKrungBox").css('background-color','green');
 				        	$("#BhumibholBridgeBox").css('background-color','green');
-				        	console.log(1);
 				        }
 				        else if(result[86]==result[87]) {
 				        	if(result[86] < result[88]) {
+				        		displayRouteCharoenKrung(directionsService, directionsDisplay);
 				        		$("#SilomBox").css('background-color','green');
 				        		$("#CharoenKrungBox").css('background-color','green');
 				        		$("#BhumibholBridgeBox").css('background-color','red');
-				        		console.log(2);
 				        	}
 				        	else {
+				        		displayRouteBhumibhol(directionsService, directionsDisplay);
 				        		$("#SilomBox").css('background-color','red');
 				        		$("#CharoenKrungBox").css('background-color','red');
 				        		$("#BhumibholBridgeBox").css('background-color','green');
-				        		console.log(3);
 				        	}
 				        }
 				        else if(result[87]==result[88]) {
 				        	if(result[86] < result[88]) {
+				        		displayRouteSilom(directionsService, directionsDisplay);
 				        		$("#SilomBox").css('background-color','green');
 				        		$("#CharoenKrungBox").css('background-color','red');
 				        		$("#BhumibholBridgeBox").css('background-color','red');
-				        		console.log(4);
 				        	}
 				        	else {
+				        		displayRouteCharoenKrung(directionsService, directionsDisplay);
 				        		$("#SilomBox").css('background-color','red');
 				        		$("#CharoenKrungBox").css('background-color','green');
 				        		$("#BhumibholBridgeBox").css('background-color','green');
-				        		console.log(5);
 				        	}
 				        }
 				        else if(result[86]==result[88]) {
 				        	if(result[87] < result[88]) {
+				        		displayRouteCharoenKrung(directionsService, directionsDisplay);
 				        		$("#SilomBox").css('background-color','red');
 				        		$("#CharoenKrungBox").css('background-color','green');
 				        		$("#BhumibholBridgeBox").css('background-color','red');
-				        		console.log(6);
 				        	}
 				        	else {
+				        		displayRouteSilom(directionsService, directionsDisplay);
 				        		$("#SilomBox").css('background-color','green');
 				        		$("#CharoenKrungBox").css('background-color','red');
 				        		$("#BhumibholBridgeBox").css('background-color','green');
-				        		console.log(7);
 				        	}
 				        }
 				        else {
@@ -203,12 +203,10 @@
 								if(result[87] < result[88]) {
 									$("#CharoenKrungBox").css('background-color','orange');
 									$("#BhumibholBridgeBox").css('background-color','red');
-									console.log(8);
 								}
 								else {
 									$("#CharoenKrungBox").css('background-color','red');
 									$("#BhumibholBridgeBox").css('background-color','orange');
-									console.log(9);
 								}
 							}
 							else { 
@@ -216,7 +214,6 @@
 								displayRouteBhumibhol(directionsService, directionsDisplay);
 								$("#SilomBox").css('background-color','orange');
 								$("#CharoenKrungBox").css('background-color','red');
-								console.log(10);
 							}
 						}
 						else {
@@ -226,12 +223,10 @@
 								if(result[86] < result[88]) {
 									$("#SilomBox").css('background-color','orange');
 									$("#BhumibholBridgeBox").css('background-color','red');
-									console.log(11);
 								}
 								else {
 									$("#SilomBox").css('background-color','red');
 									$("#BhumibholBridgeBox").css('background-color','orange');
-									console.log(12);
 								}
 							}
 							else {
@@ -239,7 +234,6 @@
 								displayRouteBhumibhol(directionsService, directionsDisplay);
 								$("#SilomBox").css('background-color','red');
 								$("#CharoenKrungBox").css('background-color','orange');
-								console.log(13);
 							}
 						}
 						$("#SilomBox").show();
