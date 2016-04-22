@@ -1,0 +1,61 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        100.54558000000002,
+                        13.68555,
+                        0
+                    ],
+                    [
+                        100.54568,
+                        13.68557,
+                        0
+                    ],
+                    [
+                        100.54579,
+                        13.68559,
+                        0
+                    ],
+                    [
+                        100.54584000000001,
+                        13.6856,
+                        0
+                    ],
+                    [
+                        100.5473,
+                        13.68577,
+                        0
+                    ],
+                    [
+                        100.54733,
+                        13.68577,
+                        0
+                    ],
+                    [
+                        100.54742,
+                        13.68578,
+                        0
+                    ],
+                    [
+                        100.54756,
+                        13.685800000000002,
+                        0
+                    ],
+                    [
+                        100.54773,
+                        13.68582,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Directions from Industrial Ring Rd, Khwaeng Chong Nonsi, Khet Yan Nawa, Krung Thep Maha Nakhon 10120, Thailand to Industrial Ring Rd, Khwaeng Chong Nonsi, Khet Yan Nawa, Krung Thep Maha Nakhon 10120, Thailand"
+            }
+        }
+    ]
+}

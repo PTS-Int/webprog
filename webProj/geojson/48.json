@@ -1,0 +1,76 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        100.54549000000002,
+                        13.70061,
+                        0
+                    ],
+                    [
+                        100.54548,
+                        13.700790000000001,
+                        0
+                    ],
+                    [
+                        100.54548,
+                        13.70089,
+                        0
+                    ],
+                    [
+                        100.54547,
+                        13.701050000000002,
+                        0
+                    ],
+                    [
+                        100.54546,
+                        13.70116,
+                        0
+                    ],
+                    [
+                        100.54546,
+                        13.70133,
+                        0
+                    ],
+                    [
+                        100.54546,
+                        13.70147,
+                        0
+                    ],
+                    [
+                        100.54547,
+                        13.70162,
+                        0
+                    ],
+                    [
+                        100.54549000000002,
+                        13.70177,
+                        0
+                    ],
+                    [
+                        100.54552,
+                        13.70206,
+                        0
+                    ],
+                    [
+                        100.54555,
+                        13.70222,
+                        0
+                    ],
+                    [
+                        100.54557,
+                        13.70233,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Directions from 334/1 Rama 3 Rd, Khwaeng Chong Nonsi, Khet Yan Nawa, Krung Thep Maha Nakhon 10120, Thailand to Rama 3 Rd, Khwaeng Chong Nonsi, Khet Yan Nawa, Krung Thep Maha Nakhon 10120, Thailand"
+            }
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        100.53654,
+                        13.72947,
+                        0
+                    ],
+                    [
+                        100.53642,
+                        13.72953,
+                        0
+                    ],
+                    [
+                        100.5363,
+                        13.72958,
+                        0
+                    ],
+                    [
+                        100.53575,
+                        13.72981,
+                        0
+                    ],
+                    [
+                        100.53559,
+                        13.72987,
+                        0
+                    ],
+                    [
+                        100.53529,
+                        13.729990000000003,
+                        0
+                    ],
+                    [
+                        100.53513,
+                        13.73006,
+                        0
+                    ],
+                    [
+                        100.53503,
+                        13.7301,
+                        0
+                    ],
+                    [
+                        100.53491,
+                        13.73015,
+                        0
+                    ],
+                    [
+                        100.53478,
+                        13.7302,
+                        0
+                    ],
+                    [
+                        100.53435,
+                        13.73037,
+                        0
+                    ],
+                    [
+                        100.53424,
+                        13.73041,
+                        0
+                    ],
+                    [
+                        100.53419,
+                        13.73043,
+                        0
+                    ],
+                    [
+                        100.5339,
+                        13.73054,
+                        0
+                    ],
+                    [
+                        100.53362000000001,
+                        13.73065,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Directions from 152/8-9 Silom Rd, Khwaeng Suriya Wong, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand to 9 Thanon Surawong, Khwaeng Suriya Wong, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand"
+            }
+        }
+    ]
+}

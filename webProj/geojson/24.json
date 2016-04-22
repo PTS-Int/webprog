@@ -1,0 +1,61 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        100.52923,
+                        13.73644,
+                        0
+                    ],
+                    [
+                        100.52935,
+                        13.73723,
+                        0
+                    ],
+                    [
+                        100.52935,
+                        13.737280000000002,
+                        0
+                    ],
+                    [
+                        100.5294,
+                        13.73758,
+                        0
+                    ],
+                    [
+                        100.52941,
+                        13.73769,
+                        0
+                    ],
+                    [
+                        100.52943,
+                        13.737800000000002,
+                        0
+                    ],
+                    [
+                        100.52944,
+                        13.73789,
+                        0
+                    ],
+                    [
+                        100.52951,
+                        13.7383,
+                        0
+                    ],
+                    [
+                        100.52957,
+                        13.738720000000002,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Directions from 254 Phayathai Rd, Khwaeng Wang Mai, Khet Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand to 254 Phayathai Rd, Khwaeng Wang Mai, Khet Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand"
+            }
+        }
+    ]
+}

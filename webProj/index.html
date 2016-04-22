@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PTS-Int.</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+</head>
+<body>
+<table class="table">
+	<caption class="caption">PTS-Int. ETA Calculator</caption>
+	<tr>
+		<th class="tablehead">Google Maps</th>
+		<th rowspan="2"></th>
+		<th class="tablehead">Silom</th>
+	</tr>
+	<tr>
+		<td id="googleMap" class="tabledata"></td>
+		<td id="silom" class="tabledata">
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<th class="tablehead">CharoenKrung</th>
+		<th rowspan="2"></th>
+		<th class="tablehead">Bhumibhol Bridge</th>
+	</tr>
+	<tr>
+		<td id="charoenkrung" class="tabledata">
+		</td>
+		<td id="bhumibhol" class="tabledata">
+		</td>
+	</tr>
+</table>
+	<br>
+	<div id="search">
+		<form id="form">
+			Semester: <input type="radio" name="semester" value="1" checked>Open</input>
+			<input type="radio" name="semester" value="0">Close</input><br>
+			Day: &nbsp;&nbsp;<select id="day" name="day">
+				<option value="1">Monday</option>
+				<option value="2">Tuesday</option>
+				<option value="3">Wednesday</option>
+				<option value="4">Thursday</option>
+				<option value="5">Friday</option>
+				<option value="6">Saturday</option>
+				<option value="7">Sunday</option>
+			</select><br>
+			Time: <input type="time" id="time" name="time" value="00:00"></input><br><br>
+			<input type="submit" value="Calculate!"></input>
+		</form><br>
+	</div>
+	<div id="SilomBox" class="minuteBox"></div>
+	<div id="CharoenKrungBox" class="minuteBox"></div>
+	<div id="BhumibholBridgeBox" class="minuteBox"></div>
+</body>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAF-zJByqkYDnu17kOhXfqEN3MGQSbI9mo&callback=initMap" async defer></script>
+<script type="text/javascript">
+	 var map;
+	 $("#SilomBox").hide();
+	 $("#CharoenKrungBox").hide();
+	 $("#BhumibholBridgeBox").hide();
+	 silomPath = [];
+	 charoenKrungPath = [];
+	 bhumibholPath = [];
+	 path1 = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23];
+	 path2 = [0,1,2,3,4,5,6,7,8,9,10,11,25,26,27,28,29,30,31,32,33,34,35,36,37,23,24];
+	 path3 = [0,1,2,3,4,5,6,38,39,40,41,42,43,44,45,46,47,47,48,49,50,51,52,53,54,55,56,57,58,59,20,21,22,23,24];
+      function initMap() {
+        googleMap = new google.maps.Map(document.getElementById('googleMap'), {
+          center: {lat: 13.6671268, lng: 100.4898065},
+          zoom: 12
+        });
+        silom = new google.maps.Map(document.getElementById('silom'), {
+          center: {lat: 13.6671268, lng: 100.4898065},
+          zoom: 12
+        });
+        charoenkrung = new google.maps.Map(document.getElementById('charoenkrung'), {
+          center: {lat: 13.6761732, lng: 100.5078086},
+          zoom: 12
+        });
+        bhumibhol = new google.maps.Map(document.getElementById('bhumibhol'), {
+          center: {lat: 13.6761732, lng: 100.5078086},
+          zoom: 12
+        });
+        initSilom();
+        initCharoenKrung();
+        initBhumibhol();
+
+        var directionsService = new google.maps.DirectionsService;
+  		var directionsDisplay = new google.maps.DirectionsRenderer({suppressMarkers: true});
+  		directionsDisplay.setMap(googleMap);
+
+      function initSilom(){
+      	for (var i = 0; i < path1.length; i++) {
+      		silomPath[i] = new google.maps.Data();
+      		silomPath[i].loadGeoJson('geojson/'+path1[i]+'.json');
+      		silomPath[i].setMap(silom);
+      	}
+      }
+
+
+      function initCharoenKrung(){
+      	for (var i = 0; i < path2.length; i++) {
+      		charoenKrungPath[i] = new google.maps.Data();
+      		charoenKrungPath[i].loadGeoJson('geojson/'+path2[i]+'.json');
+      		charoenKrungPath[i].setMap(charoenkrung);
+      	}
+      }
+
+      function initBhumibhol(){
+      	for (var i = 0; i < path3.length; i++) {
+      		bhumibholPath[i] = new google.maps.Data();
+      		bhumibholPath[i].loadGeoJson('geojson/'+path3[i]+'.json');
+      		bhumibholPath[i].setMap(bhumibhol);
+      	}
+      }
+
+	$(document).ready(function(){
+		$("form").submit(function(e){
+			e.preventDefault();
+			$.ajax({url: "compute.php", 
+					type:"post", 
+					data: $("#form").serialize(),
+					success: function(result){
+				        result = result.split(",");
+				        for (var i = 0; i < 24; i++) {
+				        	silomPath[i].setStyle({
+								strokeColor: result[i],
+								strokeWeight: 3
+							});
+				        }
+				        for (var i = 0; i < 27; i++) {
+				        	charoenKrungPath[i].setStyle({
+								strokeColor: result[i+24],
+								strokeWeight: 3
+							});
+				        }
+				        for (var i = 0; i < 35; i++) {
+				        	bhumibholPath[i].setStyle({
+								strokeColor: result[i+51],
+								strokeWeight: 3
+							});
+				        }
+				        result[86] = Number(result[86]);
+				        result[87] = Number(result[87]);
+				        result[88] = Number(result[88]);
+				        $("#SilomBox").html(result[86]+"<br>mins");
+				        $("#CharoenKrungBox").html(result[87]+"<br>mins");
+				        $("#BhumibholBridgeBox").html(result[88]+"<br>mins");
+
+				        if(result[86] == result[87] && result[87]==result[88]) {
+				        	$("#SilomBox").css('background-color','green');
+				        	$("#CharoenKrungBox").css('background-color','green');
+				        	$("#BhumibholBridgeBox").css('background-color','green');
+				        	console.log(1);
+				        }
+				        else if(result[86]==result[87]) {
+				        	if(result[86] < result[88]) {
+				        		$("#SilomBox").css('background-color','green');
+				        		$("#CharoenKrungBox").css('background-color','green');
+				        		$("#BhumibholBridgeBox").css('background-color','red');
+				        		console.log(2);
+				        	}
+				        	else {
+				        		$("#SilomBox").css('background-color','red');
+				        		$("#CharoenKrungBox").css('background-color','red');
+				        		$("#BhumibholBridgeBox").css('background-color','green');
+				        		console.log(3);
+				        	}
+				        }
+				        else if(result[87]==result[88]) {
+				        	if(result[86] < result[88]) {
+				        		$("#SilomBox").css('background-color','green');
+				        		$("#CharoenKrungBox").css('background-color','red');
+				        		$("#BhumibholBridgeBox").css('background-color','red');
+				        		console.log(4);
+				        	}
+				        	else {
+				        		$("#SilomBox").css('background-color','red');
+				        		$("#CharoenKrungBox").css('background-color','green');
+				        		$("#BhumibholBridgeBox").css('background-color','green');
+				        		console.log(5);
+				        	}
+				        }
+				        else if(result[86]==result[88]) {
+				        	if(result[87] < result[88]) {
+				        		$("#SilomBox").css('background-color','red');
+				        		$("#CharoenKrungBox").css('background-color','green');
+				        		$("#BhumibholBridgeBox").css('background-color','red');
+				        		console.log(6);
+				        	}
+				        	else {
+				        		$("#SilomBox").css('background-color','green');
+				        		$("#CharoenKrungBox").css('background-color','red');
+				        		$("#BhumibholBridgeBox").css('background-color','green');
+				        		console.log(7);
+				        	}
+				        }
+				        else {
+				        if(result[86] < result[87]) {
+							if(result[86] < result[88]) {
+								$("#SilomBox").css('background-color','green');
+								displayRouteSilom(directionsService, directionsDisplay);
+								if(result[87] < result[88]) {
+									$("#CharoenKrungBox").css('background-color','orange');
+									$("#BhumibholBridgeBox").css('background-color','red');
+									console.log(8);
+								}
+								else {
+									$("#CharoenKrungBox").css('background-color','red');
+									$("#BhumibholBridgeBox").css('background-color','orange');
+									console.log(9);
+								}
+							}
+							else { 
+								$("#BhumibholBridgeBox").css('background-color','green');
+								displayRouteBhumibhol(directionsService, directionsDisplay);
+								$("#SilomBox").css('background-color','orange');
+								$("#CharoenKrungBox").css('background-color','red');
+								console.log(10);
+							}
+						}
+						else {
+							if(result[87] < result[88]) {
+								$("#CharoenKrungBox").css('background-color','green');
+								displayRouteCharoenKrung(directionsService, directionsDisplay);
+								if(result[86] < result[88]) {
+									$("#SilomBox").css('background-color','orange');
+									$("#BhumibholBridgeBox").css('background-color','red');
+									console.log(11);
+								}
+								else {
+									$("#SilomBox").css('background-color','red');
+									$("#BhumibholBridgeBox").css('background-color','orange');
+									console.log(12);
+								}
+							}
+							else {
+								$("#BhumibholBridgeBox").css('background-color','green');
+								displayRouteBhumibhol(directionsService, directionsDisplay);
+								$("#SilomBox").css('background-color','red');
+								$("#CharoenKrungBox").css('background-color','orange');
+								console.log(13);
+							}
+						}
+						$("#SilomBox").show();
+						$("#CharoenKrungBox").show();
+						$("#BhumibholBridgeBox").show();
+					}
+				    }});
+			});
+	});
+
+	function displayRouteSilom(directionsService, directionsDisplay) {
+  			var waypts = [{location:{lat:13.6474503,lng:100.4958509},
+  							stopover: false},
+  							{location:{lat:13.6790004,lng:100.5032834},
+  							stopover: false},
+  							{location:{lat:13.7104733,lng:100.4975632},
+  							stopover: false},
+  							{location:{lat:13.7228143,lng:100.5181346},
+  							stopover: false},
+  							{location:{lat:13.7288442,lng:100.5350118},
+  							stopover: false},
+  							];
+		  directionsService.route({
+		    origin: {lat:13.6308027, lng:100.5038689},
+		    destination: {lat:13.7387195, lng:100.5295681},
+		    travelMode: google.maps.TravelMode.DRIVING,
+		    waypoints: waypts
+		  }, function(response, status) {
+		    if (status === google.maps.DirectionsStatus.OK) {
+		      directionsDisplay.setDirections(response);
+		    } else {
+		      window.alert('Directions request failed due to ' + status);
+		    }
+		  });
+		}
+      
+      function displayRouteCharoenKrung(directionsService, directionsDisplay) {
+  			var waypts = [{location:{lat:13.6308027,lng:100.5038689},
+  							stopover: false},
+  							{location:{lat:13.6475581,lng:100.4959296},
+  							stopover: false},
+  							{location:{lat:13.6821344,lng:100.5033165},
+  							stopover: false},
+  							{location:{lat:13.6974407,lng:100.4971189},
+  							stopover: false},
+  							{location:{lat:13.720298,lng:100.5158505},
+  							stopover: false},
+  							{location:{lat:13.7303318,lng:100.5167321},
+  							stopover: false},
+  							];
+		  directionsService.route({
+		    origin: {lat:13.6308027, lng:100.5038689},
+		    destination: {lat:13.7387195, lng:100.5295681},
+		    travelMode: google.maps.TravelMode.DRIVING,
+		    waypoints: waypts
+		  }, function(response, status) {
+		    if (status === google.maps.DirectionsStatus.OK) {
+		      directionsDisplay.setDirections(response);
+		    } else {
+		      window.alert('Directions request failed due to ' + status);
+		    }
+		  });
+		}
+
+      function displayRouteBhumibhol(directionsService, directionsDisplay) {
+  			var waypts = [{location:{lat:13.6308027,lng:100.5038689},
+  							stopover: false},
+  							{location:{lat:13.6475372,lng:100.4959144},
+  							stopover: false},
+  							{location:{lat:13.6644145,lng:100.5170581},
+  							stopover: false},
+  							{location:{lat:13.6947945,lng:100.5468889},
+  							stopover: false},
+  							{location:{lat:13.70484,lng:100.5462746},
+  							stopover: false},
+  							{location:{lat:13.7207854,lng:100.5574411},
+  							stopover: false},
+  							];
+		  directionsService.route({
+		    origin: {lat:13.6308027, lng:100.5038689},
+		    destination: {lat:13.7387195, lng:100.5295681},
+		    travelMode: google.maps.TravelMode.DRIVING,
+		    waypoints: waypts
+		  }, function(response, status) {
+		    if (status === google.maps.DirectionsStatus.OK) {
+		      directionsDisplay.setDirections(response);
+		    } else {
+		      window.alert('Directions request failed due to ' + status);
+		    }
+		  });
+		}
+      }
+</script>
+</html>

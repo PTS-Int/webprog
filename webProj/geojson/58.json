@@ -1,0 +1,76 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        100.54235,
+                        13.72703,
+                        0
+                    ],
+                    [
+                        100.54208,
+                        13.72714,
+                        0
+                    ],
+                    [
+                        100.54192,
+                        13.72722,
+                        0
+                    ],
+                    [
+                        100.54163,
+                        13.72734,
+                        0
+                    ],
+                    [
+                        100.54135,
+                        13.72746,
+                        0
+                    ],
+                    [
+                        100.54132,
+                        13.72747,
+                        0
+                    ],
+                    [
+                        100.5412,
+                        13.72752,
+                        0
+                    ],
+                    [
+                        100.5411,
+                        13.72756,
+                        0
+                    ],
+                    [
+                        100.54073000000001,
+                        13.72774,
+                        0
+                    ],
+                    [
+                        100.54052,
+                        13.72783,
+                        0
+                    ],
+                    [
+                        100.54031,
+                        13.72792,
+                        0
+                    ],
+                    [
+                        100.54009,
+                        13.72802,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Directions from Thanon Rama IV, Khwaeng Silom, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand to 15 ถนน พระรามที่ 4 Khwaeng Silom, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand"
+            }
+        }
+    ]
+}

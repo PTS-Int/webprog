@@ -1,0 +1,51 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        100.49661,
+                        13.69774,
+                        0
+                    ],
+                    [
+                        100.49673,
+                        13.69762,
+                        0
+                    ],
+                    [
+                        100.49692,
+                        13.69744,
+                        0
+                    ],
+                    [
+                        100.497,
+                        13.69743,
+                        0
+                    ],
+                    [
+                        100.49708,
+                        13.69744,
+                        0
+                    ],
+                    [
+                        100.4972,
+                        13.69745,
+                        0
+                    ],
+                    [
+                        100.49736,
+                        13.69748,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Directions from 68,70 ถนน มไหสวรรย์ Khwaeng Bang Kho Laem, Khet Bang Kho Laem, Krung Thep Maha Nakhon 10120, Thailand to 2380 Charoen Krung Rd, Khwaeng Bang Kho Laem, Khet Bang Kho Laem, Krung Thep Maha Nakhon 10120, Thailand"
+            }
+        }
+    ]
+}

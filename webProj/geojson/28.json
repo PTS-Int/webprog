@@ -1,0 +1,51 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        100.50336,
+                        13.7029,
+                        0
+                    ],
+                    [
+                        100.50342,
+                        13.70296,
+                        0
+                    ],
+                    [
+                        100.50362,
+                        13.70311,
+                        0
+                    ],
+                    [
+                        100.50382,
+                        13.70326,
+                        0
+                    ],
+                    [
+                        100.50397,
+                        13.703400000000002,
+                        0
+                    ],
+                    [
+                        100.50401,
+                        13.70343,
+                        0
+                    ],
+                    [
+                        100.50426,
+                        13.703650000000001,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Directions from 2194/20 Charoen Krung Rd, Khwaeng Wat Phraya Krai, Khet Bang Kho Laem, Krung Thep Maha Nakhon 10120, Thailand to 2443 Charoen Krung Rd, Khwaeng Wat Phraya Krai, Khet Bang Kho Laem, Krung Thep Maha Nakhon 10120, Thailand"
+            }
+        }
+    ]
+}

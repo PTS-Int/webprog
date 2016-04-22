@@ -1,0 +1,86 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        100.53362000000001,
+                        13.73065,
+                        0
+                    ],
+                    [
+                        100.53356,
+                        13.73067,
+                        0
+                    ],
+                    [
+                        100.53351,
+                        13.73069,
+                        0
+                    ],
+                    [
+                        100.53293,
+                        13.73094,
+                        0
+                    ],
+                    [
+                        100.53235,
+                        13.73118,
+                        0
+                    ],
+                    [
+                        100.53204,
+                        13.73132,
+                        0
+                    ],
+                    [
+                        100.53172,
+                        13.73145,
+                        0
+                    ],
+                    [
+                        100.53149,
+                        13.731550000000002,
+                        0
+                    ],
+                    [
+                        100.53125,
+                        13.73165,
+                        0
+                    ],
+                    [
+                        100.53121,
+                        13.731670000000001,
+                        0
+                    ],
+                    [
+                        100.53116,
+                        13.73169,
+                        0
+                    ],
+                    [
+                        100.53113,
+                        13.73171,
+                        0
+                    ],
+                    [
+                        100.53076000000001,
+                        13.73187,
+                        0
+                    ],
+                    [
+                        100.5304,
+                        13.73204,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Directions from 9 Thanon Surawong, Khwaeng Suriya Wong, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand to Sam Yan MRT Station, Thanon Rama IV, Khwaeng Wang Mai, Khet Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand"
+            }
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        100.5304,
+                        13.73204,
+                        0
+                    ],
+                    [
+                        100.53023,
+                        13.73212,
+                        0
+                    ],
+                    [
+                        100.53008,
+                        13.73217,
+                        0
+                    ],
+                    [
+                        100.52994,
+                        13.73222,
+                        0
+                    ],
+                    [
+                        100.5298,
+                        13.73229,
+                        0
+                    ],
+                    [
+                        100.52965,
+                        13.73235,
+                        0
+                    ],
+                    [
+                        100.52944,
+                        13.73244,
+                        0
+                    ],
+                    [
+                        100.52922,
+                        13.73253,
+                        0
+                    ],
+                    [
+                        100.52902,
+                        13.73262,
+                        0
+                    ],
+                    [
+                        100.52881,
+                        13.7327,
+                        0
+                    ],
+                    [
+                        100.52875,
+                        13.732720000000002,
+                        0
+                    ],
+                    [
+                        100.52869,
+                        13.73275,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Directions from Sam Yan MRT Station, Thanon Rama IV, Khwaeng Wang Mai, Khet Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand to 988 Phayathai Rd, Khwaeng Wang Mai, Khet Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand"
+            }
+        }
+    ]
+}
