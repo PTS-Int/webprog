@@ -97,7 +97,7 @@
       function initSilom(){
       	for (var i = 0; i < path1.length; i++) {
       		silomPath[i] = new google.maps.Data();
-      		silomPath[i].loadGeoJson('geojson/'+path1[i]+'.json');
+      		silomPath[i].loadGeoJson('https://raw.githubusercontent.com/PTS-Int/webprog/master/webProj/geojson/'+path1[i]+'.json');
       		silomPath[i].setMap(silom);
       	}
       }
@@ -106,7 +106,7 @@
       function initCharoenKrung(){
       	for (var i = 0; i < path2.length; i++) {
       		charoenKrungPath[i] = new google.maps.Data();
-      		charoenKrungPath[i].loadGeoJson('geojson/'+path2[i]+'.json');
+      		charoenKrungPath[i].loadGeoJson('https://raw.githubusercontent.com/PTS-Int/webprog/master/webProj/geojson/'+path2[i]+'.json');
       		charoenKrungPath[i].setMap(charoenkrung);
       	}
       }
@@ -114,7 +114,7 @@
       function initBhumibhol(){
       	for (var i = 0; i < path3.length; i++) {
       		bhumibholPath[i] = new google.maps.Data();
-      		bhumibholPath[i].loadGeoJson('geojson/'+path3[i]+'.json');
+      		bhumibholPath[i].loadGeoJson('https://raw.githubusercontent.com/PTS-Int/webprog/master/webProj/geojson/'+path3[i]+'.json');
       		bhumibholPath[i].setMap(bhumibhol);
       	}
       }
