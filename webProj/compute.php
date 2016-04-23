@@ -103,7 +103,8 @@
 					if($curSpeed > 4000/6) echo "green,";
 					elseif($curSpeed > 4000/9) echo "yellow,";
 					elseif($curSpeed > 4000/18) echo "orange,";
-					else echo "red,";
+					elseif($curSpeed > 4000/36) echo "red,";
+					else echo "maroon,";
 				}
 				else {
 					$distanceLeft = $length[$pathChosen[$i]] - $timeleft * $curSpeed;
@@ -127,7 +128,8 @@
 					if($curSpeed > 4000/6) echo "green,";
 					elseif($curSpeed > 4000/9) echo "yellow,";
 					elseif($curSpeed > 4000/18) echo "orange,";
-					else echo "red,";
+					elseif($curSpeed > 4000/36) echo "red,";
+					else echo "maroon,";
 				}
 				else {
 					$distanceLeft = $distance - $timeleft * $curSpeed;
