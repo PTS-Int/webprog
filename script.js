@@ -208,7 +208,7 @@ function displayContent(i) {
 	map.panTo(marker[i].position);
 	map.setZoom(16);
     for (var j = 0; j < marker.length; j++) {
-        marker[j].setAnimation(null);
+        if(i!=j) marker[j].setAnimation(null);
     }
     marker[i].setAnimation(google.maps.Animation.BOUNCE);
     markerPass[i] = true;
