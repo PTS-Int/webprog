@@ -28,7 +28,7 @@ function initMarker() {
     	map: map,
         icon: image,
     	animation: google.maps.Animation.DROP,
-    	title:"School"
+    	title:"High School"
 	});
     markerPass[1] = false;
 
