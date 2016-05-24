@@ -6,7 +6,9 @@ var markerPass = [];
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
 		  center: {lat: 13.7158627, lng: 100.533302},
-		  zoom: 12
+		  zoom: 12,
+          disableDefaultUI: true,
+          zoomControl: true,
 		});
 	
 	initMarker();
