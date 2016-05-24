@@ -206,7 +206,7 @@ function initMarker() {
 }
 
 function displayContent(i) {
-    if(curData!=-1) {
+    if(curData!=-1 && curData!=i) {
         marker[curData].setIcon("http://maps.google.com/mapfiles/marker.png");
         marker[curData].setAnimation(null);
     }
