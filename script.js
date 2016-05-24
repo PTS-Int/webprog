@@ -206,8 +206,10 @@ function initMarker() {
 }
 
 function displayContent(i) {
-    marker[curData].setIcon("http://maps.google.com/mapfiles/marker.png");
-    marker[curData].setAnimation(null);
+    if(curData!=-1) {
+        marker[curData].setIcon("http://maps.google.com/mapfiles/marker.png");
+        marker[curData].setAnimation(null);
+    }
     curData = i;
 	map.panTo(marker[i].position);
 	map.setZoom(16);
