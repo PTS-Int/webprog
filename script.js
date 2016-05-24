@@ -206,12 +206,11 @@ function initMarker() {
 }
 
 function displayContent(i) {
+    marker[curData].setIcon("http://maps.google.com/mapfiles/marker.png");
+    marker[curData].setAnimation(null);
     curData = i;
 	map.panTo(marker[i].position);
 	map.setZoom(16);
-    for (var j = 0; j < marker.length; j++) {
-        if(i!=j) marker[j].setAnimation(null);
-    }
     marker[i].setAnimation(google.maps.Animation.BOUNCE);
     markerPass[i] = true;
     $("#sideBar").animate({
