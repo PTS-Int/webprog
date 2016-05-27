@@ -18,6 +18,7 @@ td {
 td img {
 	display: block;
 	width: 100%;
+	border: 1px solid white;
 }
 
 #map {
@@ -41,9 +42,10 @@ td img {
     top: 0px;
     left: -400px;
     padding: 10px;
-    background-color: #FF766A;
+    background-color: #ff9900;
     overflow: auto;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 #headDiv {
