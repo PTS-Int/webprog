@@ -128,7 +128,6 @@ td img {
 #table tr:first-child td:first-child { 
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	border-bottom: 2px; 
 }
 
 #table tr:last-child td:first-child { border-bottom-left-radius: 10px;
@@ -138,5 +137,4 @@ td img {
 
 #table tr:last-child td:last-child { border-bottom-right-radius: 10px; 
 	border-top: 2px;
-	border-left: 2px; 
 }
