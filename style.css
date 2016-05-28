@@ -1,140 +1,36 @@
 html {
+	width: 100%;
 	height: 100%;
 }
 
 body {
-	height: 100%;
+	width: 100%;
 	margin: 0px;
-}
-
-table {
-	border-spacing: 3px;
-}
-
-td {
-	vertical-align: top;
-}
-
-td img {
-	display: block;
-	width: 100%;
-}
-
-#map {
 	height: 100%;
-	width: 100%;
-}
-
-#welcomeBar {
-	position: absolute;
-	right: 0px;
-	top: 0px;
-	padding: 2px;
-	background-color: rgba(255,255,255,0.6);
-}
-
-#sideBar{
-	height: 100%;
-	width: 400px;
-	box-sizing: border-box;
-    position: absolute;
-    top: 0px;
-    left: -400px;
-    padding: 10px;
-    background-color: #ff9900;
-    overflow: auto;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-
-#headDiv {
-	text-align: center;
-	font-size: 22px;
-	font-weight: bold;
-}
-
-#tableDiv {
+	background-color: rgb(255,101,1);
 	text-align: center;
 }
 
-#table {
-	width: 90%;
-	margin: 0 auto;
-	text-align: center;
-	border-collapse: separate;
-	border-spacing: 0px;
-	padding: 0px;
-}
-
-#table td {
-	border: 4px solid white;
-	background-size: cover;
-}
-
-#row1 {
-	height: 224px;
-}
-
-#row2 {
-	height: 110px;
-}
-
-#row2 td {
-	width: 50%;
-}
-
-#previous {
-	top: 32px;
-}
-
-.next {
-	position: absolute;
-	right: 4px;
-	top: 32px;
-	cursor: pointer;
-}
-
-.previous {
-	position: absolute;
-	right: 4px;
-	top: 54px;
-	cursor: pointer;	
-}
-
-.close {
-	position: absolute;
-	right: 4px;
-	cursor: pointer;
-}
-
-.subheadDiv {
-	font-size: 18px;
-	text-decoration: underline;
-}
-
-.skillBar {
-	width: 100%;
-	height: 1em;
-	position: relative;
-	background-color: rgb(241,241,241);
-}
-
-.skillLevel {
+img {
 	height: 100%;
-	position: absolute;
-	line-height: inherit;	
 }
 
-#table tr:first-child td:first-child { 
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+#welcome {
+	padding-top: 8vh;
+	height: 15%;
 }
 
-#table tr:last-child td:first-child { border-bottom-left-radius: 10px;
-	border-top: 2px;
-	border-right: 2px; 
+#myResume {
+	padding-top: 8vh;
+	height: 10%;
 }
 
-#table tr:last-child td:last-child { border-bottom-right-radius: 10px; 
-	border-top: 2px;
+#arrow {
+	padding-top: 6vh;
+	height: 21%;	
+}
+
+#click {
+	padding-top: 5vh;
+	height: 16%;
 }
