@@ -15,11 +15,6 @@ td {
 	vertical-align: top;
 }
 
-td img {
-	display: block;
-	width: 100%;
-}
-
 #map {
 	height: 100%;
 	width: 100%;
@@ -61,6 +56,7 @@ td img {
 #table td {
 	border: 4px solid white;
 	background-size: cover;
+	cursor: pointer;
 }
 
 #row1 {
