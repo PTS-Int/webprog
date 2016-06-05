@@ -77,21 +77,21 @@ td {
 
 .next {
 	position: absolute;
-	right: 4px;
+	right: 7px;
 	top: 32px;
 	cursor: pointer;
 }
 
 .previous {
 	position: absolute;
-	right: 4px;
+	right: 7px;
 	top: 54px;
 	cursor: pointer;	
 }
 
 .close {
 	position: absolute;
-	right: 4px;
+	right: 7px;
 	cursor: pointer;
 }
 
