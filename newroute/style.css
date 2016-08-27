@@ -1,6 +1,7 @@
 html {
 	height: 100%;
 	width: 100%;
+	font-size: 1em;
 }
 
 body {
@@ -9,17 +10,28 @@ body {
 	margin: 0px;
 }
 
+table {
+	width: 100%;
+}
+
+button {
+	margin-left: 0.5em;
+}
+
 #map {
-	display: inline;
 	position: absolute;
 	right: 0px;
 	height: 100%;
-	width: 80%;
+	width: 70%;
 }
 
-#sideBar{
-	display: inline;
+#sideBar {
+	float: left;
 	height: 100%;
-	width: 20%;
+	width: 30%;
 	overflow: auto;
+}
+
+.rowtoggle {
+	cursor: pointer;
 }
