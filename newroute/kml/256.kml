@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ReRoute Zone 1</name>
+		<Placemark>
+			<name>256L วงกลมศูนย์ราชการแจ้งวัฒนะ-ศรีสมาน</name>
+			<styleUrl>#line-3F5BA9-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>100.567517,13.879246,0.0 100.5681932,13.8790689,0.0 100.5680323,13.8786627,0.0 100.567292,13.878329,0.0 100.5658811,13.8785117,0.0 100.5664068,13.8800688,0.0 100.5658436,13.8807146,0.0 100.566037,13.881412,0.0 100.5663049,13.8815999,0.0 100.5669057,13.8816832,0.0 100.5694056,13.8899217,0.0 100.5641377,13.8916923,0.0 100.564245,13.8919839,0.0 100.5708325,13.8896614,0.0 100.5743194,13.8883907,0.0 100.5809069,13.8847662,0.0 100.5873442,13.8959103,0.0 100.5944681,13.9086369,0.0 100.6020856,13.9226749,0.0 100.599103,13.9236747,0.0 100.5867863,13.9268612,0.0 100.5670023,13.9330259,0.0 100.5631399,13.9343171,0.0 100.554621,13.938191,0.0 100.5521965,13.9391071,0.0 100.5513167,13.9392112,0.0 100.5481839,13.9376493,0.0 100.5473256,13.937441,0.0 100.5464888,13.9375868,0.0 100.5443645,13.9383782,0.0 100.542068,13.940419,0.0 100.541596,13.939378,0.0 100.5409956,13.938399,0.0 100.5213833,13.9220293,0.0 100.5056548,13.909116,0.0 100.5046034,13.9077413,0.0 100.50433,13.907301,0.0 100.5036163,13.907408,0.0 100.498759,13.910413,0.0 100.4954356,13.9140419,0.0 100.4956877,13.9141773,0.0 100.4990888,13.9105427,0.0 100.5037129,13.9076788,0.0 100.5053973,13.9074289,0.0 100.5215979,13.9062,0.0 100.5252028,13.9057418,0.0 100.5555439,13.8950355,0.0 100.5641592,13.8919943,0.0 100.5641162,13.8909945,0.0 100.563988,13.889464,0.0 100.5634403,13.8887552,0.0 100.5633652,13.8884011,0.0 100.563912,13.888203,0.0 100.566069,13.887984,0.0 100.5671632,13.8876616,0.0 100.5676889,13.8877241,0.0 100.5689067,13.88737,0.0 100.5662298,13.8787044,0.0 100.5663371,13.8785586,0.0 100.5672169,13.8784023,0.0 100.567925,13.8786523,0.0 100.5680645,13.8790273,0.0 100.5675066,13.8791106,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>256R วงกลมศูนย์ราชการแจ้งวัฒนะ-ศรีสมาน</name>
+			<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>100.5673885,13.8792148,0.0 100.5681932,13.8790689,0.0 100.5680323,13.8786627,0.0 100.567292,13.878329,0.0 100.5658811,13.8785117,0.0 100.5664068,13.8800688,0.0 100.5658436,13.8807146,0.0 100.566037,13.881412,0.0 100.5663049,13.8815999,0.0 100.5669057,13.8816832,0.0 100.5694056,13.8899217,0.0 100.5531192,13.8955771,0.0 100.5419183,13.8995347,0.0 100.534966,13.9020134,0.0 100.5265331,13.9050336,0.0 100.5245805,13.9055543,0.0 100.5132937,13.9065541,0.0 100.5036163,13.907408,0.0 100.502286,13.9082204,0.0 100.498759,13.910413,0.0 100.495441,13.913995,0.0 100.4956877,13.9141773,0.0 100.4986918,13.9109072,0.0 100.4992604,13.9104178,0.0 100.5036163,13.9076892,0.0 100.5039918,13.9076267,0.0 100.5043888,13.907835,0.0 100.504775,13.9084182,0.0 100.5053866,13.9091056,0.0 100.5097747,13.9127089,0.0 100.521276,13.9223625,0.0 100.5318117,13.9310474,0.0 100.5407166,13.938524,0.0 100.5420685,13.9407523,0.0 100.5439782,13.9387739,0.0 100.5468965,13.9376909,0.0 100.5479908,13.9378575,0.0 100.5503619,13.9390446,0.0 100.5514884,13.9394403,0.0 100.55313,13.9390134,0.0 100.5635262,13.9344837,0.0 100.5872583,13.9269028,0.0 100.6004977,13.9234247,0.0 100.6021821,13.9228207,0.0 100.6039846,13.9260281,0.0 100.6042206,13.9259344,0.0 100.5966353,13.9123444,0.0 100.590198,13.9007636,0.0 100.587194,13.8954104,0.0 100.5848336,13.8913278,0.0 100.5809283,13.8845371,0.0 100.5743086,13.888172,0.0 100.5696201,13.8898488,0.0 100.5641377,13.8916923,0.0 100.563988,13.889464,0.0 100.5634725,13.888849,0.0 100.5633652,13.8884011,0.0 100.563912,13.888203,0.0 100.566069,13.887984,0.0 100.5670667,13.8876825,0.0 100.5676889,13.8877241,0.0 100.5689067,13.88737,0.0 100.5667663,13.8803292,0.0 100.5662298,13.8787044,0.0 100.5663371,13.8785586,0.0 100.5672169,13.8784023,0.0 100.567925,13.8786523,0.0 100.5680645,13.8790273,0.0 100.5675066,13.8791106,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Style id='line-3F5BA9-4-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-3F5BA9-5-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-3F5BA9-6-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>6</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-6-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>9.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-6-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-6-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-6-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-4-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-5-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

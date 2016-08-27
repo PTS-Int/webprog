@@ -1,0 +1,25 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+#map {
+	display: inline;
+	position: absolute;
+	right: 0px;
+	height: 100%;
+	width: 80%;
+}
+
+#sideBar{
+	display: inline;
+	height: 100%;
+	width: 20%;
+	overflow: auto;
+}

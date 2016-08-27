@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ReRoute Zone 1</name>
+		<Placemark>
+			<name>95A (ไป) รังสิต-บางกะปิ</name>
+			<styleUrl>#line-3F5BA9-6-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>100.6038987,13.9845966,0.0 100.6036733,13.9862832,0.0 100.6028263,13.9861272,0.0 100.6027293,13.9863872,0.0 100.6027083,13.9865742,0.0 100.6053153,13.9869602,0.0 100.6059803,13.9869282,0.0 100.6130397,13.9882404,0.0 100.6133615,13.9883861,0.0 100.613619,13.9886256,0.0 100.6137263,13.9890108,0.0 100.6139733,13.9895622,0.0 100.6143379,13.9898124,0.0 100.6146705,13.990208,0.0 100.6148523,13.9907802,0.0 100.6144563,13.9931232,0.0 100.6144237,13.9937684,0.0 100.6143913,13.9939762,0.0 100.6139413,13.9942472,0.0 100.6136405,13.9944138,0.0 100.6134903,13.9946012,0.0 100.6135332,13.9948199,0.0 100.6137803,13.9950492,0.0 100.6140804,13.9951426,0.0 100.6154429,13.9954861,0.0 100.6157543,13.9956732,0.0 100.6157973,13.9959442,0.0 100.6157113,13.9961832,0.0 100.6153893,13.9962772,0.0 100.6150567,13.9960379,0.0 100.6149813,13.9956422,0.0 100.614928,13.9931334,0.0 100.6157004,13.9888546,0.0 100.6170952,13.9810986,0.0 100.6192839,13.9686362,0.0 100.6210219,13.9585993,0.0 100.621258,13.9567251,0.0 100.6210003,13.9551422,0.0 100.6201422,13.9529559,0.0 100.614928,13.9438554,0.0 100.6081688,13.9317139,0.0 100.5987063,13.9148592,0.0 100.5898654,13.8985349,0.0 100.5819046,13.8843288,0.0 100.5880737,13.8807355,0.0 100.5959916,13.876288,0.0 100.5963241,13.8759026,0.0 100.597161,13.874559,0.0 100.5976545,13.873934,0.0 100.5981051,13.8735591,0.0 100.6047785,13.8698927,0.0 100.6163227,13.8637367,0.0 100.6346476,13.8538514,0.0 100.6536162,13.843622,0.0 100.6621778,13.8389342,0.0 100.6626069,13.8386581,0.0 100.6619847,13.8373195,0.0 100.656352,13.8242035,0.0 100.650301,13.8101387,0.0 100.6486487,13.8065338,0.0 100.6477046,13.8047626,0.0 100.6475115,13.8041583,0.0 100.6476617,13.8034915,0.0 100.6498933,13.7983861,0.0 100.6524253,13.7928222,0.0 100.6527901,13.7918844,0.0 100.6526613,13.7915093,0.0 100.6486058,13.785591,0.0 100.6452155,13.7805217,0.0 100.6450278,13.7806832,0.0 100.6423187,13.7798704,0.0 100.6408918,13.7787763,0.0 100.6412673,13.7753377,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>95A (กลับ) บางกะปิ-รังสิต</name>
+			<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>100.6412029,13.7751084,0.0 100.642029,13.7679809,0.0 100.6449795,13.7663136,0.0 100.645473,13.7661677,0.0 100.6478012,13.7664282,0.0 100.6474686,13.7685853,0.0 100.6473398,13.769544,0.0 100.647254,13.7723366,0.0 100.6468892,13.7726492,0.0 100.6453979,13.7748792,0.0 100.6450868,13.7754836,0.0 100.6441534,13.7790889,0.0 100.6442714,13.779412,0.0 100.6511593,13.7895505,0.0 100.6525862,13.7916448,0.0 100.6526077,13.7919678,0.0 100.6474149,13.8035332,0.0 100.6473613,13.8040333,0.0 100.6475437,13.8045855,0.0 100.6506872,13.8114723,0.0 100.6580043,13.8284124,0.0 100.662328,13.8384654,0.0 100.6495285,13.845497,0.0 100.6213331,13.8607472,0.0 100.5981803,13.873184,0.0 100.597537,13.873601,0.0 100.5973005,13.873934,0.0 100.5961633,13.8758297,0.0 100.5956912,13.8762255,0.0 100.5829024,13.8834955,0.0 100.581851,13.8840996,0.0 100.5816686,13.8837872,0.0 100.5790937,13.8792043,0.0 100.5771518,13.8758297,0.0 100.5745339,13.871205,0.0 100.5734128,13.8691166,0.0 100.5732787,13.8690385,0.0 100.5730748,13.8690697,0.0 100.5730158,13.8692624,0.0 100.5731392,13.8695437,0.0 100.5757892,13.874361,0.0 100.5793726,13.8807875,0.0 100.5830848,13.8874117,0.0 100.5885243,13.8970664,0.0 100.5931163,13.9056584,0.0 100.5968392,13.9120632,0.0 100.6000471,13.9176659,0.0 100.6039524,13.9246744,0.0 100.6087053,13.9330467,0.0 100.6128359,13.9407211,0.0 100.6191981,13.9518105,0.0 100.6198204,13.9530287,0.0 100.6203139,13.9539554,0.0 100.6206894,13.955309,0.0 100.6206787,13.9556109,0.0 100.6204641,13.9557567,0.0 100.6200135,13.9560378,0.0 100.6198204,13.9563606,0.0 100.619874,13.9566521,0.0 100.620142,13.956975,0.0 100.620475,13.957162,0.0 100.620754,13.957454,0.0 100.620668,13.958079,0.0 100.619477,13.9647214,0.0 100.6182218,13.9716034,0.0 100.6169665,13.9789642,0.0 100.6161189,13.9838053,0.0 100.615443,13.987751,0.0 100.615207,13.988011,0.0 100.614831,13.988105,0.0 100.6128573,13.9878239,0.0 100.6036733,13.9862832,0.0 100.603942,13.984555,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Style id='line-3F5BA9-4-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-3F5BA9-5-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-3F5BA9-6-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>6</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-6-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>9.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-6-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-6-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-6-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-4-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-5-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

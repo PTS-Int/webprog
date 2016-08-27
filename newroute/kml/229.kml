@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ReRoute Zone 1</name>
+		<Placemark>
+			<name>229 (ไป) รังสิต-คลองหลวง-มทร.ธัญบุรี</name>
+			<styleUrl>#line-3F5BA9-5-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>100.603942,13.984555,0.0 100.603727,13.986179,0.0 100.60288,13.986023,0.0 100.6027722,13.986356,0.0 100.6028849,13.9864549,0.0 100.6053311,13.9868297,0.0 100.606066,13.9868661,0.0 100.6088716,13.9873242,0.0 100.6117898,13.9878291,0.0 100.6125301,13.9880269,0.0 100.6129754,13.9881102,0.0 100.613533,13.988344,0.0 100.6137264,13.9885943,0.0 100.613866,13.989219,0.0 100.6142092,13.9895989,0.0 100.6146491,13.9900101,0.0 100.6148529,13.9904526,0.0 100.614821,13.990989,0.0 100.614531,13.9929251,0.0 100.6145847,13.9976514,0.0 100.6147563,14.0033041,0.0 100.6149602,14.008509,0.0 100.6151748,14.0149005,0.0 100.6153679,14.0205632,0.0 100.6156898,14.0291194,0.0 100.6159687,14.0369259,0.0 100.6162906,14.0421092,0.0 100.6165051,14.0494886,0.0 100.6167948,14.0575858,0.0 100.6171274,14.0646628,0.0 100.616945,14.0649854,0.0 100.6167412,14.0652456,0.0 100.6163013,14.0652456,0.0 100.6160438,14.0650791,0.0 100.6158829,14.0648189,0.0 100.6158936,14.0644546,0.0 100.6161082,14.06408,0.0 100.616473,14.0638614,0.0 100.6172669,14.0637157,0.0 100.6188655,14.0637053,0.0 100.6199813,14.0638822,0.0 100.6205928,14.0642257,0.0 100.62114,14.0646211,0.0 100.6218481,14.0650478,0.0 100.6225669,14.0652143,0.0 100.6273627,14.0652664,0.0 100.6383061,14.0654225,0.0 100.6515884,14.0656514,0.0 100.662961,14.0659949,0.0 100.6840754,14.0666505,0.0 100.6982267,14.0670564,0.0 100.702486,14.0671189,0.0 100.7039022,14.067275,0.0 100.7051468,14.0671917,0.0 100.7067776,14.0670876,0.0 100.7102966,14.0670876,0.0 100.7101893,14.0629248,0.0 100.710125,14.0521634,0.0 100.710125,14.03703,0.0 100.710125,14.0208338,0.0 100.7101679,14.0103203,0.0 100.7105541,14.010237,0.0 100.7120132,14.0107575,0.0 100.7298231,14.0182523,0.0 100.7300806,14.0185438,0.0 100.7307029,14.0188561,0.0 100.7320118,14.0193973,0.0 100.732162,14.0225201,0.0 100.7320976,14.0338658,0.0 100.7319903,14.0398819,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>229 (กลับ) มทร.ธัญบุรี-คลองหลวง-รังสิต</name>
+			<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>100.7319903,14.0398819,0.0 100.7320118,14.0193973,0.0 100.7298982,14.0184709,0.0 100.729866,14.0181066,0.0 100.71329,14.0111947,0.0 100.7032371,14.0068538,0.0 100.7031405,14.007062,0.0 100.7122386,14.0107887,0.0 100.7120132,14.0107575,0.0 100.7103503,14.0101746,0.0 100.7101679,14.0103203,0.0 100.7100821,14.0245291,0.0 100.7100713,14.0365304,0.0 100.7101035,14.0549214,0.0 100.7102215,14.0670356,0.0 100.7054579,14.0670876,0.0 100.7049429,14.0669836,0.0 100.7035267,14.0669523,0.0 100.702486,14.0671189,0.0 100.6953943,14.0668795,0.0 100.6908774,14.0666818,0.0 100.6897831,14.0666922,0.0 100.6833887,14.0665152,0.0 100.6671453,14.0659741,0.0 100.652082,14.0655786,0.0 100.6367075,14.065308,0.0 100.6228673,14.0650791,0.0 100.6223202,14.065027,0.0 100.6215906,14.0645275,0.0 100.6208289,14.0639655,0.0 100.62011,14.0635388,0.0 100.6194341,14.0633931,0.0 100.6185222,14.0633931,0.0 100.6180072,14.0634035,0.0 100.617739,14.0632058,0.0 100.6175244,14.0627895,0.0 100.6173098,14.0580957,0.0 100.6170845,14.0513307,0.0 100.6167948,14.0445656,0.0 100.61643,14.0363846,0.0 100.616194,14.0301499,0.0 100.6158936,14.0232279,0.0 100.6156576,14.0149005,0.0 100.6153035,14.0037309,0.0 100.6150138,13.9949551,0.0 100.615014,13.993092,0.0 100.6156147,13.9897498,0.0 100.6157541,13.9890315,0.0 100.6166071,13.9841749,0.0 100.6160009,13.9840239,0.0 100.6155986,13.9865642,0.0 100.6155717,13.9869806,0.0 100.6154108,13.9877926,0.0 100.6152445,13.9879852,0.0 100.6147456,13.988131,0.0 100.6097245,13.9872721,0.0 100.6053793,13.9865277,0.0 100.603727,13.986179,0.0 100.603942,13.984555,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Style id='line-3F5BA9-4-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-3F5BA9-5-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-3F5BA9-6-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>6</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-6-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>9.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-6-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-6-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-6-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-4-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-5-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

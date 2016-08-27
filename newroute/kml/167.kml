@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ReRoute Zone 5</name>
+		<Placemark>
+			<name>167 (ไป) เคหะธนบุรี-สวนลุมพินี</name>
+			<styleUrl>#line-3F5BA9-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>100.419545,13.649448,0.0 100.429888,13.657017,0.0 100.428788,13.663851,0.0 100.427613,13.669277,0.0 100.427012,13.671008,0.0 100.425468,13.673906,0.0 100.44126,13.682746,0.0 100.447354,13.685978,0.0 100.448728,13.686895,0.0 100.451474,13.688875,0.0 100.453899,13.690939,0.0 100.459199,13.697736,0.0 100.461066,13.700216,0.0 100.463426,13.699112,0.0 100.468297,13.699153,0.0 100.469177,13.699112,0.0 100.470293,13.698862,0.0 100.477889,13.695297,0.0 100.480914,13.694066,0.0 100.481837,13.694046,0.0 100.485635,13.704886,0.0 100.495248,13.698966,0.0 100.496879,13.697538,0.0 100.501728,13.692357,0.0 100.503187,13.690992,0.0 100.504807,13.690168,0.0 100.509281,13.689751,0.0 100.512221,13.694525,0.0 100.517306,13.703886,0.0 100.518165,13.705783,0.0 100.519152,13.709389,0.0 100.519838,13.713204,0.0 100.51986,13.716362,0.0 100.519624,13.718812,0.0 100.529945,13.721938,0.0 100.526812,13.728504,0.0 100.533442,13.73061,0.0 100.533603,13.731141,0.0 100.539805,13.728358,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>167 (กลับ) สวนลุมพินี-เคหะธนบุรี</name>
+			<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>100.539987,13.728275,0.0 100.544236,13.726524,0.0 100.544622,13.726034,0.0 100.530503,13.721803,0.0 100.528496,13.72125,0.0 100.519903,13.718645,0.0 100.52001,13.716154,0.0 100.519967,13.711953,0.0 100.519366,13.709118,0.0 100.518465,13.705824,0.0 100.517607,13.704073,0.0 100.513938,13.697298,0.0 100.510697,13.691273,0.0 100.509431,13.689501,0.0 100.505032,13.689834,0.0 100.503273,13.690481,0.0 100.502286,13.691315,0.0 100.495634,13.698403,0.0 100.495033,13.698924,0.0 100.490076,13.702009,0.0 100.488381,13.702989,0.0 100.485914,13.704428,0.0 100.48557,13.704136,0.0 100.48203,13.693921,0.0 100.481086,13.6939,0.0 100.479605,13.694442,0.0 100.470293,13.698736,0.0 100.46834,13.698986,0.0 100.463426,13.699112,0.0 100.462568,13.69932,0.0 100.461109,13.70005,0.0 100.454071,13.690835,0.0 100.452654,13.689772,0.0 100.449822,13.68752,0.0 100.446432,13.685394,0.0 100.43963,13.681641,0.0 100.423086,13.672467,0.0 100.406027,13.663085,0.0 100.405748,13.662564,0.0 100.40519,13.654578,0.0 100.405297,13.652638,0.0 100.405855,13.650824,0.0 100.409181,13.645153,0.0 100.41034,13.644402,0.0 100.411166,13.64387,0.0 100.411949,13.644027,0.0 100.41285,13.644412,0.0 100.419374,13.649344,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Style id='line-3F5BA9-3-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>3</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-3-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>5.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-3-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-3-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-3-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-3F5BA9-4-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-3F5BA9-5-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-3-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>3</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-3-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>5.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-3-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-3-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-3-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-4-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-5-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

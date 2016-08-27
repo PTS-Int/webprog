@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ReRoute Zone 8</name>
+		<Placemark>
+			<name>B1 (ไป) หมอชิต 2-สายใต้ใหม่ (ตลิ่งชัน)</name>
+			<styleUrl>#line-3F5BA9-3-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>100.548179,13.810149,0.0 100.5476797,13.8098261,0.0 100.548313,13.809253,0.0 100.548313,13.804367,0.0 100.548066,13.804367,0.0 100.5479264,13.8058045,0.0 100.5477011,13.8085863,0.0 100.547787,13.8094094,0.0 100.548892,13.8108888,0.0 100.5495036,13.8122328,0.0 100.549804,13.8139936,0.0 100.5496752,13.8167232,0.0 100.5491495,13.819307,0.0 100.5487311,13.8199216,0.0 100.5474222,13.8197758,0.0 100.5464244,13.819432,0.0 100.5452979,13.819557,0.0 100.5427015,13.8206926,0.0 100.5407274,13.8210364,0.0 100.534333,13.8216615,0.0 100.5301917,13.8221199,0.0 100.5287433,13.8221303,0.0 100.5272305,13.8219219,0.0 100.5256855,13.8214114,0.0 100.5242479,13.8206926,0.0 100.5215335,13.8185047,0.0 100.5131114,13.8108367,0.0 100.5069852,13.8052419,0.0 100.5037022,13.8023037,0.0 100.5023503,13.8011159,0.0 100.5013633,13.8005116,0.0 100.4978764,13.7991571,0.0 100.4881239,13.7956458,0.0 100.4823732,13.7935307,0.0 100.4803991,13.7931765,0.0 100.4776955,13.7924888,0.0 100.4757,13.791697,0.0 100.4734898,13.7904674,0.0 100.4600573,13.7873207,0.0 100.4508734,13.7851117,0.0 100.4484701,13.7848616,0.0 100.4463673,13.785195,0.0 100.4451656,13.7855285,0.0 100.4448223,13.7852784,0.0 100.444372,13.785508,0.0 100.4434276,13.7837362,0.0 100.4429877,13.7823191,0.0 100.4430306,13.7803706,0.0 100.4434812,13.776411,0.0 100.4438674,13.7737434,0.0 100.4435885,13.7736079,0.0 100.4433954,13.7740039,0.0 100.4428482,13.7786096,0.0 100.4426014,13.7795578,0.0 100.442162,13.779735,0.0 100.4411209,13.7795891,0.0 100.4368615,13.7800267,0.0 100.427055,13.780996,0.0 100.4267603,13.7809333,0.0 100.4267228,13.7805946,0.0 100.4267603,13.7782553,0.0 100.4268998,13.7761505,0.0 100.4265189,13.7735193,0.0 100.4263741,13.7733839,0.0 100.426272,13.773493,0.0 100.4266262,13.7760046,0.0 100.4266155,13.7773852,0.0 100.4265136,13.7785106,0.0 100.4245341,13.7788076,0.0 100.4244643,13.7791515,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>B1 (กลับ) สายใต้ใหม่ (ตลิ่งชัน)-หมอชิต 2</name>
+			<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>100.4249525,13.7790264,0.0 100.4265189,13.7790681,0.0 100.4263043,13.7796933,0.0 100.426015,13.7811,0.0 100.4124641,13.7824859,0.0 100.4096317,13.7825484,0.0 100.407486,13.782715,0.0 100.4067779,13.7824233,0.0 100.4065204,13.7818815,0.0 100.406821,13.781527,0.0 100.4075718,13.7814022,0.0 100.408108,13.781902,0.0 100.4093313,13.7864454,0.0 100.4099965,13.7953854,0.0 100.4099965,13.7967607,0.0 100.4086232,13.7976151,0.0 100.4074645,13.798407,0.0 100.407486,13.7990529,0.0 100.4078078,13.7997198,0.0 100.4084301,13.7998656,0.0 100.4134941,13.7996364,0.0 100.4215193,13.7995322,0.0 100.426712,13.7990738,0.0 100.4296947,13.7979485,0.0 100.4412389,13.7887794,0.0 100.444656,13.786237,0.0 100.4461098,13.7855493,0.0 100.4477835,13.7850908,0.0 100.4491782,13.7851325,0.0 100.465765,13.7888002,0.0 100.473329,13.79052,0.0 100.4764938,13.7923012,0.0 100.4788971,13.7930097,0.0 100.480957,13.793489,0.0 100.4823947,13.7936766,0.0 100.4970717,13.7989488,0.0 100.5020714,13.8010117,0.0 100.5034661,13.802262,0.0 100.5105042,13.8085759,0.0 100.5186367,13.8160773,0.0 100.5231643,13.8201821,0.0 100.5249238,13.8212656,0.0 100.5264902,13.821849,0.0 100.5281639,13.8222032,0.0 100.5300093,13.8223074,0.0 100.54106,13.8211614,0.0 100.5433774,13.820703,0.0 100.5447936,13.8199321,0.0 100.5462098,13.819557,0.0 100.5473471,13.8199112,0.0 100.5484414,13.8201613,0.0 100.5494928,13.8199112,0.0 100.549879,13.818974,0.0 100.5505228,13.8149729,0.0 100.5507267,13.8130038,0.0 100.549643,13.8115869,0.0 100.548248,13.809118,0.0 100.5481195,13.8078987,0.0 100.548313,13.804367,0.0 100.548066,13.804367,0.0 100.5479372,13.8070964,0.0 100.5479479,13.8086488,0.0 100.548253,13.809715,0.0 100.5490422,13.8107847,0.0 100.549268,13.811254,0.0 100.549064,13.811441,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Style id='line-3F5BA9-3-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>3</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-3-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>5.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-3-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-3-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-3-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-3F5BA9-4-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-3F5BA9-5-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-3-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>3</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-3-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>5.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-3-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-3-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-3-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-4-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-5-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>ReRoute Zone 4</name>
+		<Placemark>
+			<name>195 (ไป) อู่คลองเตย-เดอะมอลล์ท่าพระ</name>
+			<styleUrl>#line-3F5BA9-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>100.565382,13.716164,0.0 100.565854,13.715966,0.0 100.565243,13.714517,0.0 100.559986,13.716685,0.0 100.558054,13.717654,0.0 100.558859,13.720187,0.0 100.557615,13.720854,0.0 100.558054,13.717394,0.0 100.557615,13.716883,0.0 100.554149,13.713464,0.0 100.548227,13.707346,0.0 100.547047,13.705793,0.0 100.545952,13.703469,0.0 100.545738,13.70226,0.0 100.545738,13.700185,0.0 100.54606,13.698611,0.0 100.547111,13.695203,0.0 100.547529,13.692711,0.0 100.547626,13.690533,0.0 100.547969,13.685602,0.0 100.546328,13.68554,0.0 100.544429,13.685185,0.0 100.543184,13.684528,0.0 100.542304,13.683882,0.0 100.54135,13.682798,0.0 100.54062,13.681193,0.0 100.540008,13.679598,0.0 100.53959,13.677888,0.0 100.539032,13.673822,0.0 100.538635,13.670184,0.0 100.538453,13.666202,0.0 100.53871,13.665295,0.0 100.538689,13.664565,0.0 100.538346,13.664127,0.0 100.537498,13.663846,0.0 100.535717,13.664305,0.0 100.532799,13.66396,0.0 100.530331,13.6637,0.0 100.528389,13.663773,0.0 100.525868,13.6642,0.0 100.522714,13.665055,0.0 100.521383,13.665243,0.0 100.520192,13.665139,0.0 100.517542,13.664159,0.0 100.516512,13.663658,0.0 100.516158,13.663387,0.0 100.516072,13.663095,0.0 100.516137,13.662793,0.0 100.516308,13.662741,0.0 100.516566,13.66271,0.0 100.516791,13.662814,0.0 100.516866,13.662981,0.0 100.516931,13.663418,0.0 100.51619,13.665545,0.0 100.515633,13.666734,0.0 100.514764,13.667672,0.0 100.512897,13.668892,0.0 100.506899,13.672634,0.0 100.502715,13.675282,0.0 100.49763,13.678462,0.0 100.493767,13.681005,0.0 100.490474,13.68333,0.0 100.489234,13.684221,0.0 100.488124,13.684846,0.0 100.483167,13.68849,0.0 100.481536,13.689793,0.0 100.481064,13.690825,0.0 100.481268,13.692169,0.0 100.484315,13.701092,0.0 100.485538,13.704574,0.0 100.482062,13.706658,0.0 100.481247,13.70743,0.0 100.480131,13.708785,0.0 100.479573,13.709744,0.0 100.478758,13.711995,0.0 100.4782,13.715174,0.0 100.47651,13.714241,0.0 100.476429,13.714866,0.0 100.477497,13.715507,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>195 (กลับ) เดอะมอลล์ท่าพระ-อู่คลองเตย</name>
+			<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>100.477642,13.71556,0.0 100.477942,13.715758,0.0 100.47805,13.715987,0.0 100.477154,13.720125,0.0 100.477476,13.720156,0.0 100.478168,13.716393,0.0 100.47923,13.711422,0.0 100.479798,13.709889,0.0 100.480657,13.708534,0.0 100.482202,13.706908,0.0 100.484154,13.705783,0.0 100.485871,13.704865,0.0 100.48306,13.696652,0.0 100.481386,13.69169,0.0 100.481365,13.690877,0.0 100.481815,13.68998,0.0 100.482266,13.689418,0.0 100.488381,13.68506,0.0 100.494025,13.681026,0.0 100.503016,13.675303,0.0 100.512682,13.669277,0.0 100.514957,13.667745,0.0 100.515751,13.666942,0.0 100.516845,13.664555,0.0 100.517156,13.664398,0.0 100.520192,13.665337,0.0 100.521566,13.665451,0.0 100.522821,13.665253,0.0 100.526093,13.664357,0.0 100.527649,13.664002,0.0 100.529623,13.663835,0.0 100.53193,13.663929,0.0 100.537037,13.664763,0.0 100.537509,13.664961,0.0 100.537863,13.665264,0.0 100.53812,13.665733,0.0 100.538292,13.667192,0.0 100.53856,13.67107,0.0 100.538989,13.674198,0.0 100.539536,13.678003,0.0 100.539805,13.679222,0.0 100.540888,13.68211,0.0 100.541339,13.682965,0.0 100.542229,13.683945,0.0 100.544118,13.685091,0.0 100.545083,13.685362,0.0 100.54695,13.685748,0.0 100.547733,13.68579,0.0 100.547304,13.692013,0.0 100.546961,13.694744,0.0 100.545942,13.698017,0.0 100.54548,13.700498,0.0 100.545545,13.702249,0.0 100.545942,13.704125,0.0 100.547132,13.706335,0.0 100.548195,13.70745,0.0 100.554053,13.713517,0.0 100.557926,13.717321,0.0 100.558237,13.717634,0.0 100.559932,13.716914,0.0 100.565007,13.714809,0.0 100.565339,13.714955,0.0 100.565747,13.715914,0.0 100.565414,13.716081,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Style id='line-3F5BA9-3-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>3</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-3-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>5.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-3-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-3-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-3-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-3F5BA9-4-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-3F5BA9-5-nodesc-normal'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-3F5BA9-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-3F5BA9-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-3F5BA9-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-3F5BA9-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-3-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>3</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-3-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>5.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-3-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-3-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-3-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-4-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-5-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
