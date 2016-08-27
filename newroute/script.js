@@ -63,7 +63,7 @@ $(document).ready(function() {
             if(j % 5 == 0) {
                 html += '<tr class="rowChild' + (i + 1) + '">';
             }
-            html += '<td><input type="checkbox" class="route khet' + (i + 1) + '" value="' + routeList[i][j] + '" checked>' + routeList[i][j] + '</td>';
+            html += '<td><label><input type="checkbox" class="route khet' + (i + 1) + '" value="' + routeList[i][j] + '" checked>' + routeList[i][j] + '</label></td>';
             if(j % 5 == 4) {
                 html += '</tr>';
             }
