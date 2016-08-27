@@ -1,4 +1,4 @@
-var glomkarnURL = 'https://raw.githubusercontent.com/PTS-Int/webprog/master/webProj/kml/';
+var glomkarnURL = 'https://raw.githubusercontent.com/PTS-Int/webprog/master/newroute/geojson/';
 var routeList = [];
 routeList[0] = [29, 34, '34E', 39, '39A', 52, 59, '59A', '59E', 95, '95A', 
                 '106E', '107E', 126, '129E', 150, 154, 185, 187, 
@@ -43,13 +43,13 @@ function initMap() {
         });
 
         var kml = [];
-        for (var i = 0; i < routeList.length; i++) {
+        for (var i = 0; i < 2/*routeList.length*/; i++) {
             kml[i] = [];
             for (var j = 0; j < routeList[i].length; j++) {
                 kml[i][j] = new google.maps.KmlLayer({
                   url: glomkarnURL + routeList[i][j] + '.kml',
                   map: map
-                }
+                });
             }
-        });
+        }
       }
