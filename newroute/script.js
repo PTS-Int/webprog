@@ -13,7 +13,7 @@ routeList[1] = [26, '26E', 27, 60, 71, 73, 92, 93, 94, 96, '96A',
                 501, '512E', 514, '514E', 517, 519, 525, 526, 527, 549 ,550];
 routeList[2] = [2, '2E', '11A', 23, '23E', 25, '25E', 38, '45E', 46, 48,
                 '102E', 116, 132, 133, '139E', '142E', 145, '145A', '145E', 162, '180E', '181E',
-                207, 214, 222, 223, 232, 234, 235,
+                207, 214, 222, 223, 232, 233, 234, 235,
                 '511E', '513E', '536E', '537E', 548, 551, 552, 553];
 routeList[3] = [1, 4, 12, 13, 14, 22, 36, 47, 62, 67, 72, 77, 78, 99,
                 100, 136, 137, 176, 179, 195,
@@ -52,7 +52,7 @@ function initMap() {
                 kml[i][j].setMap(map);
             }
         }
-      }
+    }
 
 $(document).ready(function() {
     var html = '<table col="5">';
@@ -74,7 +74,7 @@ $(document).ready(function() {
         }
         html += '<tr></tr>';
     }
-    html += '</table>';
+    html += '</table><br><div id="count">Current: ' + counter + ' / ' + counter + '</div>';
     $('#sideBar').html(html);
 
     $('.rowtoggle').on('click', function() {
@@ -129,5 +129,12 @@ $(document).ready(function() {
                 }   
             }
         }
+        $('#count').text('Current: ' + $('.route:checked').length + " / " + $('.route').length);
+    });
+
+    $('#sideBar').resizable({
+        handles: 'w,e',
+        minWidth: 200,
+        maxWidth: 1000
     });
 });

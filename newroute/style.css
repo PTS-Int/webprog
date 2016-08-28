@@ -19,10 +19,9 @@ button {
 }
 
 #map {
-	position: absolute;
 	right: 0px;
 	height: 100%;
-	width: 70%;
+	width: auto;
 }
 
 #sideBar {
