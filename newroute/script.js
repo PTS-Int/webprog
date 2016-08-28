@@ -134,7 +134,11 @@ $(document).ready(function() {
 
     $('#sideBar').resizable({
         handles: 'w,e',
-        minWidth: 200,
-        maxWidth: 1000
+        minWidth: 0.15*$(window).width(),
+        maxWidth: 0.85*$(window).width()
+    });
+
+    $(window).resize(function() {
+        google.maps.event.trigger(map, "resize");
     });
 });
